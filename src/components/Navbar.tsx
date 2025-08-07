@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { X } from "lucide-react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { cn } from "@/lib/utils";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
